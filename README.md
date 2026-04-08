@@ -1,17 +1,14 @@
 # apple-monte-carlo
-# Apple Supply Chain Shock Simulator 🍎📉
+# Apple Supply Chain Shock Simulator
 
 A Monte Carlo simulation that models how manufacturing disruptions affect Apple's (AAPL) stock price — calibrated from **real historical events** and enriched with **live news sentiment analysis**.
 
-> Built as a beginner data science project exploring quantitative finance concepts using Python.
 
 ---
 
 ## What This Project Does
 
-Most stock simulators use arbitrary shock values. This one doesn't.
-
-Instead it:
+Instead of using arbitrary shock values it:
 - Pulls **real AAPL price history** via `yfinance` to compute actual volatility and drift
 - Measures **what Apple's stock actually did** during 5 real supply chain / geopolitical shocks
 - Uses those real numbers to **calibrate the simulation shock** (no guessing)
