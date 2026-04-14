@@ -152,16 +152,3 @@ apple-monte-carlo/
 
 ---
 
-## Ideas for Extension
-
-- [ ] Add more companies (Samsung, Nvidia, TSMC) to compare shock sensitivity
-- [ ] Replace TextBlob with a finance-specific model (FinBERT)
-- [ ] Add jump-diffusion model to better capture crash events
-- [ ] Build an interactive Streamlit dashboard
-- [ ] Backtest: simulate past shocks and compare to what actually happened
-
----
-
-## License
-
-MIT — free to use, modify and distribute.
